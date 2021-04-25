@@ -15,11 +15,11 @@ class Tetris {
         window.onkeydown = (e) => {
             if (e.keyCode === 37) {
                 this.moveLeft();
-            } else if (e.keyCode === 38) {
+            } else if (e.keyCode === 17) {
                 this.rotate();
             } else if (e.keyCode === 39) {
                 this.moveRight();
-            } else if (e.keyCode === 40) {
+            } else if (e.keyCode === 38) {
                 this.fall();
             }
         }
